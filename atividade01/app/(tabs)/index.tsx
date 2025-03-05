@@ -4,19 +4,19 @@ import { View, Text, Image, FlatList, StyleSheet } from "react-native";
 const carros = [
   {
     id: "1",
-    marca: "VW",
-    modelo: "Fusca",
-    ano: "1978",
-    cor: "Preto",
-    image: require("@/assets/images/fuscapreto.png"),
+    marca: "Ferrari",
+    modelo: "Enzo",
+    ano: "2006",
+    cor: "Vermelho",
+    image: require("@/assets/images/Enzo_Ferrari.jpg"),
   },
   {
     id: "2",
-    marca: "VW",
-    modelo: "Gol",
-    ano: "2010",
-    cor: "Vermelho",
-    image: require("@/assets/images/golvermelho.png"),
+    marca: "Toyota",
+    modelo: "Corolla",
+    ano: "2015",
+    cor: "Preto",
+    image: require("@/assets/images/corolla preto.jpg"),
   },
 ];
 
