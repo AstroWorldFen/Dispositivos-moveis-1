@@ -40,7 +40,7 @@ const CarroItem = ({
 export default function CarListScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>Carros</Text>
+      <Text style={styles.header}>Carros bons</Bons></Text>
       <FlatList
         data={carros}
         keyExtractor={(item) => item.id}
